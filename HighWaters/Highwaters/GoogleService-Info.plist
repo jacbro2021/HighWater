@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>816951483197-midajpdov5e87ck83t6omb1r9vhaq15c.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.816951483197-midajpdov5e87ck83t6omb1r9vhaq15c</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDkAdq7hms09R753DIXF_Fc6dgVd0h4K64</string>
+	<key>GCM_SENDER_ID</key>
+	<string>816951483197</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>me.jacobbrown.Highwaters</string>
+	<key>PROJECT_ID</key>
+	<string>highwaters-8b37a</string>
+	<key>STORAGE_BUCKET</key>
+	<string>highwaters-8b37a.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:816951483197:ios:78f22ac19f570ad8dbc354</string>
+</dict>
+</plist>
