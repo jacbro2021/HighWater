@@ -30,9 +30,10 @@ class ContentViewModel: ObservableObject {
     }
     
     func populateFloodedRegions() {
-        
         let floodedRegionsRef = rootRef.child("flooded-regions")
         floodedRegionsRef.observe(.value) { snapshot in
+            
+            self.floodLocations = []
             
             let floodDictionaries = snapshot.value as? [String:Any] ?? [:]
             
@@ -43,12 +44,9 @@ class ContentViewModel: ObservableObject {
                     if let flood = Location(dictionary: floodDict) {
                         self.floodLocations.append(FloodLocation(Coordinates: CLLocationCoordinate2D(latitude: flood.Latitude, longitude: flood.Longitude)))
                     }
-                    
                 }
             }
-            
         }
-        
     }
     
     func addFloodLocation() {
